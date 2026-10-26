@@ -1,0 +1,191 @@
+[
+  {
+    "model": "ResembleAI/chatterbox-turbo",
+    "language": "English",
+    "text": "This is a wireless head tracking module. It controls the camera and the view in a flight simulator.",
+    "duration_seconds": 5.28,
+    "inference_seconds": 14.792446600000403,
+    "peak_allocated_mib": 2793.146484375,
+    "peak_reserved_mib": 2876.0,
+    "device": "cuda:0",
+    "dtype": "float32",
+    "sample_rate": 24000,
+    "parameters": {
+      "temperature": 0.8,
+      "top_p": 0.95,
+      "top_k": 1000,
+      "repetition_penalty": 1.2
+    },
+    "seed": 20261026,
+    "sample": "samples/chatter-English.wav",
+    "wall_seconds": 29.79700000000048,
+    "automatic_audio_check": {
+      "model": "chatter-English",
+      "transcript": "This is a wireless head tracking module. It controls the camera and the view in a flight simulator.",
+      "expected": "This is a wireless head tracking module. It controls the camera and the view in a flight simulator.",
+      "word_match": true,
+      "duration": 5.28,
+      "finite": true,
+      "leading_silence_seconds": 0.1,
+      "trailing_silence_seconds": 0.2
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "language": "English",
+    "text": "This is a wireless head tracking module. It controls the camera and the view in a flight simulator.",
+    "duration_seconds": 5.040041666666666,
+    "inference_seconds": 12.176216099999692,
+    "peak_allocated_mib": 2417.400390625,
+    "peak_reserved_mib": 2550.0,
+    "device": "cuda:0",
+    "dtype": "bfloat16",
+    "sample_rate": 24000,
+    "parameters": {
+      "do_sample": true,
+      "temperature": 0.8,
+      "top_p": 1.0,
+      "top_k": 50,
+      "repetition_penalty": 1.05,
+      "max_new_tokens": 768
+    },
+    "seed": 20261026,
+    "sample": "samples/clone-English.wav",
+    "wall_seconds": 23.45299999999952,
+    "automatic_audio_check": {
+      "model": "clone-English",
+      "transcript": "This is a wireless head tracking module. It controls the camera and the view in a flight simulator.",
+      "expected": "This is a wireless head tracking module. It controls the camera and the view in a flight simulator.",
+      "word_match": true,
+      "duration": 5.040041666666666,
+      "finite": true,
+      "leading_silence_seconds": 0.1,
+      "trailing_silence_seconds": 0.0
+    }
+  },
+  {
+    "model": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "language": "English",
+    "text": "This is a wireless head tracking module. It controls the camera and the view in a flight simulator.",
+    "duration_seconds": 6.68,
+    "inference_seconds": 5.8123993999997765,
+    "peak_allocated_mib": 3361.0888671875,
+    "peak_reserved_mib": 3514.0,
+    "device": "cuda:0",
+    "dtype": "LLM float16; flow/HiFT float32 with official float16 autocast",
+    "sample_rate": 24000,
+    "parameters": {
+      "stream": false,
+      "speed": 1.0,
+      "text_frontend": false
+    },
+    "seed": 20261026,
+    "sample": "samples/cosy-English.wav",
+    "wall_seconds": 41.54699999999866,
+    "automatic_audio_check": {
+      "model": "cosy-English",
+      "transcript": "This is a wireless head tracking module, it controls the camera and the view in a flight simulator.",
+      "expected": "This is a wireless head tracking module. It controls the camera and the view in a flight simulator.",
+      "word_match": true,
+      "duration": 6.68,
+      "finite": true,
+      "leading_silence_seconds": 0.1,
+      "trailing_silence_seconds": 0.1
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+    "language": "Chinese",
+    "text": "这是一个无线头追模块。它既可以控制FPV云台，也能用来控制模拟飞行游戏里的视角。",
+    "duration_seconds": 6.48,
+    "inference_seconds": 13.662735699999757,
+    "peak_allocated_mib": 4181.67041015625,
+    "peak_reserved_mib": 4292.0,
+    "device": "cuda:0",
+    "dtype": "float16",
+    "sample_rate": 24000,
+    "parameters": {
+      "do_sample": true,
+      "temperature": 0.8,
+      "top_p": 1.0,
+      "top_k": 50,
+      "repetition_penalty": 1.05,
+      "max_new_tokens": 768
+    },
+    "seed": 20261026,
+    "sample": "samples/design-Chinese.wav",
+    "wall_seconds": 25.70299999999952,
+    "automatic_audio_check": {
+      "model": "design-Chinese",
+      "transcript": "这是一个无限头锥模块，它既可以控制FPV云台，也能用来控制模拟飞行游戏里的视角。😊",
+      "expected": "这是一个无线头追模块。它既可以控制FPV云台，也能用来控制模拟飞行游戏里的视角。",
+      "word_match": null,
+      "duration": 6.48,
+      "finite": true,
+      "leading_silence_seconds": 0.0,
+      "trailing_silence_seconds": 0.1
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+    "language": "English",
+    "text": "This is a wireless head tracking module. It controls the camera and the view in a flight simulator.",
+    "duration_seconds": 5.36,
+    "inference_seconds": 11.407840099999703,
+    "peak_allocated_mib": 4148.97705078125,
+    "peak_reserved_mib": 4242.0,
+    "device": "cuda:0",
+    "dtype": "float16",
+    "sample_rate": 24000,
+    "parameters": {
+      "do_sample": true,
+      "temperature": 0.8,
+      "top_p": 1.0,
+      "top_k": 50,
+      "repetition_penalty": 1.05,
+      "max_new_tokens": 768
+    },
+    "seed": 20261026,
+    "sample": "samples/design-English.wav",
+    "wall_seconds": 29.938000000000102,
+    "automatic_audio_check": {
+      "model": "design-English",
+      "transcript": "This is a wireless head tracking module, it controls the camera and the view in a flight simulator.",
+      "expected": "This is a wireless head tracking module. It controls the camera and the view in a flight simulator.",
+      "word_match": true,
+      "duration": 5.36,
+      "finite": true,
+      "leading_silence_seconds": 0.0,
+      "trailing_silence_seconds": 0.1
+    }
+  },
+  {
+    "model": "hexgrad/Kokoro-82M",
+    "language": "English",
+    "text": "This is a wireless head tracking module. It controls the camera and the view in a flight simulator.",
+    "duration_seconds": 7.05,
+    "inference_seconds": 1.5158972000008362,
+    "peak_allocated_mib": 681.01708984375,
+    "peak_reserved_mib": 750.0,
+    "device": "cuda:0",
+    "dtype": "float32",
+    "sample_rate": 24000,
+    "parameters": {
+      "voice": "am_michael",
+      "speed": 1.0
+    },
+    "seed": 20261026,
+    "sample": "samples/kokoro-English.wav",
+    "wall_seconds": 16.07800000000134,
+    "automatic_audio_check": {
+      "model": "kokoro-English",
+      "transcript": "This is a wireless head tracking module; it controls the camera and the view in a flight simulator.",
+      "expected": "This is a wireless head tracking module. It controls the camera and the view in a flight simulator.",
+      "word_match": true,
+      "duration": 7.05,
+      "finite": true,
+      "leading_silence_seconds": 0.4,
+      "trailing_silence_seconds": 0.6000000000000001
+    }
+  }
+]
